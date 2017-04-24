@@ -2,10 +2,10 @@
  * Created by Szymon - Laptop on 18/04/2017.
  */
 public abstract class Algorithm {
-    int list[];
-    int size;
-    long startTime;
-    long stopTime;
+    protected int list[];
+    protected int size;
+    protected long startTime;
+    protected long stopTime;
 
     public Algorithm(int size,int tab[]){
         this.size=size;

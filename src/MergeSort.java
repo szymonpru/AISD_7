@@ -2,7 +2,7 @@
  * Created by Szymon - Laptop on 18/04/2017.
  */
 public class MergeSort extends Algorithm{
-    int[] tabHelp;
+    private int[] tabHelp;
     public MergeSort(int size, int[] tab) {
         super(size, tab);
         tabHelp=new int[size];
